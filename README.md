@@ -1,5 +1,5 @@
 
-# Chest X-Ray Analyzer (Universal Support)
+# Chest X-Ray Analyzer
 
 ## ⚠️ Usage & Licensing
 **This project is licensed under the GNU GPLv3 License.**
