@@ -1,0 +1,15 @@
+gradio
+torch
+transformers
+timm
+einops
+spaces
+scikit-image
+albumentations
+numpy
+opencv-python-headless
+pillow
+pydicom
+python-gdcm
+pylibjpeg
+pylibjpeg-libjpeg

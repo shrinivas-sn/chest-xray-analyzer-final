@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chest X-ray Analyzer (Universal Support)</title>
+   
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="data:,"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Chest X-ray Analyzer</h1>
+        <input type="file" id="fileInput" accept="image/*, .dcm, application/dicom">
+        <button id="analyzeBtn">Analyze X-ray</button>
+        
+        <div id="resultContainer">
+            <h2>Analysis Result:</h2>
+            <pre id="resultText">Select a file (PNG, JPG, or DICOM) to begin.</pre>
+            
+            <div id="labelsContainer"></div>
+            
+            <img id="resultImage" alt="Analysis Result" style="display: none;" />
+            
+            <div id="heatmapsContainer"></div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
